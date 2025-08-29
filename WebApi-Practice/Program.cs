@@ -16,6 +16,6 @@ static async Task ProcessRepositoriesAsync(HttpClient client)
 
 	foreach (var repo in repositories ?? Enumerable.Empty<Repository>())
 	{
-		Console.WriteLine(repo.name);
+		Console.WriteLine(repo.Name);
 	}
 }
